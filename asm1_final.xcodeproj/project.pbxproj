@@ -14,6 +14,8 @@
 		774EF4F8288924F800D04770 /* asm1_finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF4F7288924F800D04770 /* asm1_finalTests.swift */; };
 		774EF502288924F800D04770 /* asm1_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF501288924F800D04770 /* asm1_finalUITests.swift */; };
 		774EF504288924F800D04770 /* asm1_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF503288924F800D04770 /* asm1_finalUITestsLaunchTests.swift */; };
+		774EF5112889350F00D04770 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF5102889350F00D04770 /* Contact.swift */; };
+		774EF513288935C100D04770 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF512288935C100D04770 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		774EF4FD288924F800D04770 /* asm1_finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asm1_finalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774EF501288924F800D04770 /* asm1_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asm1_finalUITests.swift; sourceTree = "<group>"; };
 		774EF503288924F800D04770 /* asm1_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asm1_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		774EF5102889350F00D04770 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		774EF512288935C100D04770 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				774EF4E8288924F700D04770 /* ContentView.swift */,
 				774EF4EA288924F800D04770 /* Assets.xcassets */,
 				774EF4EC288924F800D04770 /* Preview Content */,
+				774EF5102889350F00D04770 /* Contact.swift */,
+				774EF512288935C100D04770 /* ModelData.swift */,
 			);
 			path = asm1_final;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774EF5112889350F00D04770 /* Contact.swift in Sources */,
+				774EF513288935C100D04770 /* ModelData.swift in Sources */,
 				774EF4E9288924F700D04770 /* ContentView.swift in Sources */,
 				774EF4E7288924F700D04770 /* asm1_finalApp.swift in Sources */,
 			);

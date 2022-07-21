@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    
+
+    
+    @State private var singleSelection: UUID?
+    
     var body: some View {
-        Text("Hello Billie!")
-            .padding()
+        NavigationView {
+            List(selection: $singleSelection) {
+                Section(header: Text("LECTURERS")) {
+                    ForEach(lecturers) { lecturer in
+                        Text(lecturer.name)
+                    }
+                }
+            }
+            .navigationTitle("RMIT LECTURERS")
+        }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
