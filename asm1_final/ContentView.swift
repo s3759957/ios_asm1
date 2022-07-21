@@ -10,8 +10,6 @@ import SwiftUI
 struct ContentView: View {
 
     
-
-    
     @State private var singleSelection: UUID?
     
     var body: some View {

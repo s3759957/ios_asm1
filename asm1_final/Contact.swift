@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Lecturer: Hashable, Identifiable {
+struct Contact: Hashable, Identifiable {
     var name: String
     var imageName: String
     var image: Image{

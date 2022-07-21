@@ -16,6 +16,9 @@
 		774EF504288924F800D04770 /* asm1_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF503288924F800D04770 /* asm1_finalUITestsLaunchTests.swift */; };
 		774EF5112889350F00D04770 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF5102889350F00D04770 /* Contact.swift */; };
 		774EF513288935C100D04770 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF512288935C100D04770 /* ModelData.swift */; };
+		774EF519288938CE00D04770 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF518288938CE00D04770 /* ContactRow.swift */; };
+		774EF51D288939EF00D04770 /* ContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774EF51C288939EF00D04770 /* ContactView.xib */; };
+		774EF51F28893A1000D04770 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774EF51E28893A1000D04770 /* ContactList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		774EF503288924F800D04770 /* asm1_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asm1_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		774EF5102889350F00D04770 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		774EF512288935C100D04770 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		774EF518288938CE00D04770 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		774EF51C288939EF00D04770 /* ContactView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactView.xib; sourceTree = "<group>"; };
+		774EF51E28893A1000D04770 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				774EF4EC288924F800D04770 /* Preview Content */,
 				774EF5102889350F00D04770 /* Contact.swift */,
 				774EF512288935C100D04770 /* ModelData.swift */,
+				774EF518288938CE00D04770 /* ContactRow.swift */,
+				774EF51C288939EF00D04770 /* ContactView.xib */,
+				774EF51E28893A1000D04770 /* ContactList.swift */,
 			);
 			path = asm1_final;
 			sourceTree = "<group>";
@@ -239,6 +248,7 @@
 			files = (
 				774EF4EE288924F800D04770 /* Preview Assets.xcassets in Resources */,
 				774EF4EB288924F800D04770 /* Assets.xcassets in Resources */,
+				774EF51D288939EF00D04770 /* ContactView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774EF51F28893A1000D04770 /* ContactList.swift in Sources */,
 				774EF5112889350F00D04770 /* Contact.swift in Sources */,
+				774EF519288938CE00D04770 /* ContactRow.swift in Sources */,
 				774EF513288935C100D04770 /* ModelData.swift in Sources */,
 				774EF4E9288924F700D04770 /* ContentView.swift in Sources */,
 				774EF4E7288924F700D04770 /* asm1_finalApp.swift in Sources */,
